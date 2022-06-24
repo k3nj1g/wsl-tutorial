@@ -1,0 +1,17 @@
+Windows 10 версии 2004 и выше (сборка 19041 и выше) или Windows 11.
+(WINDOWS+R -> winver)
+
+===================
+wsl -l -o (Список доступных дистрибутивов)
+
+wsl --install -d Ubuntu-20.04
+
+===================
+Add-LocalGroupMember -Group docker-users -M <username>
+
+===================
+доступ к файловой системе WSL
+\\wsl$ 
+
+===================
+sudo apt update && sudo apt upgrade
